@@ -1,0 +1,31 @@
+.app-component-container {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  border-color: var(--dl-color-success-100);
+  border-width: 5px;
+  border-radius: 32px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.21);
+}
+.app-component-text {
+  color: var(--dl-color-gray-white);
+  width: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 900;
+  background-filter: blur(4px);
+}
+.app-component-button {
+  color: var(--dl-color-success-100);
+  margin-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-success-100);
+  padding-left: 2rem;
+  border-radius: 16px;
+  padding-right: 2rem;
+}

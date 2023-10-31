@@ -1,0 +1,108 @@
+.float-bck-btn-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  opacity: 1;
+  z-index: 9999999;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.32);
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-100);
+}
+.float-bck-btn-container:hover {
+  opacity: 1;
+}
+.float-bck-btn-container:active {
+  opacity: 1;
+  padding: var(--dl-space-space-halfunit);
+}
+.float-bck-btn-button {
+  width: auto;
+  height: auto;
+  display: flex;
+  opacity: 0.6;
+  padding: var(--dl-space-space-unit);
+  z-index: 9999999;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.32);
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-success-100);
+}
+.float-bck-btn-button:focus {
+  opacity: 1;
+  border-color: var(--dl-color-success-500);
+  border-width: 5px;
+}
+.float-bck-btn-button:hover {
+  opacity: 1;
+}
+.float-bck-btn-button:active {
+  opacity: 1;
+  padding: var(--dl-space-space-halfunit);
+}
+.float-bck-btn-icon {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+}
+.float-bck-btn-root-class-name {
+  top: 892px;
+  left: 45px;
+}
+.float-bck-btn-root-class-name1 {
+  top: 59px;
+  left: 64px;
+}
+.float-bck-btn-root-class-name2 {
+  top: 892px;
+  left: 45px;
+}
+@media(max-width: 1200px) {
+  .float-bck-btn-container {
+    width: auto;
+    height: auto;
+    opacity: 0.6;
+    padding: var(--dl-space-space-unit);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.41);
+    border-radius: 50%;
+    background-color: var(--dl-color-success-100);
+  }
+  .float-bck-btn-button {
+    width: auto;
+    height: auto;
+    opacity: 0.6;
+    padding: var(--dl-space-space-unit);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.41);
+    border-radius: 50%;
+    background-color: var(--dl-color-success-100);
+  }
+  .float-bck-btn-icon {
+    fill: var(--dl-color-gray-white);
+  }
+  .float-bck-btn-root-class-name {
+    top: 25px;
+    left: 44px;
+  }
+  .float-bck-btn-root-class-name2 {
+    top: 25px;
+    left: 44px;
+  }
+}
+@media(max-width: 479px) {
+  .float-bck-btn-root-class-name {
+    top: 18px;
+    left: 28px;
+  }
+  .float-bck-btn-root-class-name2 {
+    top: 18px;
+    left: 28px;
+  }
+}
